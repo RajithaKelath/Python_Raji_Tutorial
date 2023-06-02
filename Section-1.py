@@ -68,7 +68,7 @@ match = player1_num.intersection(lottery_numbers)
 print("Player " + player1_name + " got " + str(len(match)) + " numbers right." )
 """
 
-#Joins
-friend = ["Ram" , "Sita", "Vishnu"]
+#Joins test
+friend = ["Ram", "Sita", "Vishnu"]
 comma_separator = ", ".join(friend)
 print(f"My friends are {comma_separator}.")
