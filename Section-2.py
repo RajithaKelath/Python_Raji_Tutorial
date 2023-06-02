@@ -1,12 +1,12 @@
 #if else statement
-friends = ["Jenny" , "Charlie", "Bob"]
+friends = ["Jenny", "Charlie", "Bob"]
 family = ["Ram", "Sita"]
 
-user_name = input("Enter your name: ")
+user_name = input("Enter your nam2e: ")
 
-if user_name = friends:
-    print("Hello Friend!")
-else if user_name = family:
-    print("Hello Family!")
+if user_name in friends:
+  print("Hello Friend!")
+elif user_name in family:
+  print("Hello Family!")
 else:
-    print("Hello stranger")
+  print("Hello stranger")
