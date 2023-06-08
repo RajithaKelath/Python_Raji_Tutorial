@@ -1,0 +1,7 @@
+{'Name:The Songs of Adelaide & Abullah, Category: Poetry, Main category: Publishing'},
+{'Name:Greeting From Earth: ZGAC Arts Capsule For ET, Category: Narrative Film, Main category: Film & Video'},
+{'Name:Where is Hank?, Category: Narrative Film, Main category: Film & Video'},
+{'Name:ToshiCapital Rekordz Needs Help to Complete Album, Category: Music, Main category: Music'},
+{'Name:Community Film Project: The Art of Neighborhood Filmmaking, Category: Film & Video, Main category: Film & Video'},
+{'Name:Monarch Espresso Bar, Category: Restaurants, Main category: Food'},
+{'Name:Support Solar Roasted Coffee & Green Energy!  SolarCoffee.co, Category: Food, Main category: Food'},
