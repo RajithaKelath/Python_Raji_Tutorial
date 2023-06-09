@@ -1,7 +1,4 @@
-{'Name:The Songs of Adelaide & Abullah, Category: Poetry, Main category: Publishing'},
-{'Name:Greeting From Earth: ZGAC Arts Capsule For ET, Category: Narrative Film, Main category: Film & Video'},
-{'Name:Where is Hank?, Category: Narrative Film, Main category: Film & Video'},
-{'Name:ToshiCapital Rekordz Needs Help to Complete Album, Category: Music, Main category: Music'},
-{'Name:Community Film Project: The Art of Neighborhood Filmmaking, Category: Film & Video, Main category: Film & Video'},
-{'Name:Monarch Espresso Bar, Category: Restaurants, Main category: Food'},
-{'Name:Support Solar Roasted Coffee & Green Energy!  SolarCoffee.co, Category: Food, Main category: Food'},
+{
+	"json_data" :
+	[{"name": "The Songs of Adelaide & Abullah", "category": "Poetry", "main_category": "Publishing"}, {"name": "Greeting From Earth: ZGAC Arts Capsule For ET", "category": "Narrative Film", "main_category": "Film & Video"}, {"name": "Where is Hank?", "category": "Narrative Film", "main_category": "Film & Video"}, {"name": "ToshiCapital Rekordz Needs Help to Complete Album", "category": "Music", "main_category": "Music"}, {"name": "Community Film Project: The Art of Neighborhood Filmmaking", "category": "Film & Video", "main_category": "Film & Video"}, {"name": "Monarch Espresso Bar", "category": "Restaurants", "main_category": "Food"}, {"name": "Support Solar Roasted Coffee & Green Energy!  SolarCoffee.co", "category": "Food", "main_category": "Food"}]	
+}

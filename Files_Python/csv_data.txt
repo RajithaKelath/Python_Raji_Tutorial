@@ -1,4 +1,3 @@
-name,category,main_category
 The Songs of Adelaide & Abullah,Poetry,Publishing
 Greeting From Earth: ZGAC Arts Capsule For ET,Narrative Film,Film & Video
 Where is Hank?,Narrative Film,Film & Video
