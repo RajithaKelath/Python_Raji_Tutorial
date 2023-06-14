@@ -12,7 +12,7 @@ which we're calling a database because it stores data).
 #from utils import database_like_file
 #from utils.database_like_file import *
 
-from utils.database import *
+from utils.database import create_book_table, db_add_book, db_list_books, db_read_book, db_delete_book
 
 USER_CHOICE = """
 Enter:
@@ -49,17 +49,17 @@ def menu():
 
 #add_book
 def add_book():
-        name = input('Enter book name: ')
-        author = input('Enter author name: ')
-        db_add_book(name,author)
+    name = input('Enter book name: ')
+    author = input('Enter author name: ')
+    db_add_book(name,author)
 
 def list_books():
     contents = db_list_books()
     print(contents)
 
 def read_book():
-     name = input('Enter book name which you have read: ')
-     db_read_book(name)
+    name = input('Enter book name which you have read: ')
+    db_read_book(name)
      
 def delete_book():
     name = input('Enter the book which need to be deleted: ')
