@@ -1,0 +1,25 @@
+{% extends 'common-template.html'%}
+
+{% block body %}
+<a href="{{ url_for('home_page') }}">Home</a>
+<h2>The Passenger List</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Seat</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  {% for id, value in passenger_list.items() %}
+  <tr>
+    <td>{{ passenger_list[id]['name'] }}</td>
+    <td>{{ passenger_list[id]['seat'] }}</td>
+    <td>{{ passenger_list[id]['age'] }}</td>
+    <td>{{ passenger_list[id]['gender'] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}

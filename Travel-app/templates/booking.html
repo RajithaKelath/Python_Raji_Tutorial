@@ -1,0 +1,36 @@
+{% extends 'common-template.html'%}
+
+{% block body %}
+<h1>Book your tickets!</h1>
+<h2>Available seats: {{ seat }}</h2>
+<h3>Traveller Details</h3>
+<form class="label_input" method="POST" id="form1">
+    <div class="form_text">
+        <label width: 200px for="passnum">Number of Passengers</label>
+        <input type="number" id="passnum" name="passenger_num" placeholder="Max 5..." min="1" max="5" required="required"/>
+    </div>
+    <div class="form_text">
+        <label width: 200px for="passname">Name</label>
+        <input type="text" id="passname" name="passenger_name" placeholder="Your name..."  required="required"/>
+    </div>
+    <div class="form_text">
+        <lable for="age">Age</lable>
+        <input type="number" id="age" name="age" placeholder="Age..." min="1" max="95"   required="required"/>
+    </div>
+    <div class="form_text">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..."/>
+    </div>
+    <div class="form_text">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="bisex">Bisex</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit" form="form1" value="Submit">Submit</button>
+    </div>
+</form>
+{% endblock %}

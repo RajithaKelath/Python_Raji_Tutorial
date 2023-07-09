@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #E1F5FE;
+  }
+
+  /*
+ * Formatting the header area
+ */
+h1 {
+    height: 35px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 10px;
+    color: #2196F3;
+  }
+  h2 {
+    font-size: 1.7em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #0277BD;
+  }
+
+h3 {
+    font-size: 1.7em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: rgb(16, 16, 17);
+}
+  .icon {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 6px 0 rgba(30, 58, 79, 0.16);
+
+  }
+
+  .container {
+    margin-top: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    font-size: 1.3em;
+    margin-top: 60px;
+    float: center;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .menu li {
+    display: inline;
+  }
+  .menu li + li {
+    margin-left: 35px;
+  }
+  .menu li a {
+    color: #E1F5FE;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none;
+    background-color: #0277BD;
+    padding:5px 20px;
+    border-radius: 4px;
+  }
+
+  .menu li a:hover{
+    background-color: #01579B;
+  }
+
+  .form_text {
+    width: 500px;
+    text-align: left;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: beige;
+
+  }
+  .form_text > input {
+    width: 200px;
+  }
+
+  .label_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .form_submit {
+    color: #E1F5FE;
+    width: 250px;
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.form_submit:hover {
+    background-color: #45a049;
+  }
+
+.booking {
+  font-size: 1.3em;
+  margin-top: 60px;
+  float: center;
+  margin-top: 8px;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

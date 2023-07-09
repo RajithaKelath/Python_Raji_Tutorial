@@ -1,0 +1,17 @@
+{% extends 'common-template.html'%}
+
+{% block body %}
+<h2>Booking is in Progress</h2>
+<div class="booking"> {{ amount }} </div>
+<form method="POST" id="form2">
+<div class="container">
+    <div class="form_text">
+        <lable for="amount">Amount to be paid: </lable>
+        <input type="number" id="amount" name="amount" min="0"/>
+    </div>
+    <div>
+        <button type="submit" form="form2" value="Submit">Submit</button>
+     </div>
+</div>
+</form>
+{% endblock %}

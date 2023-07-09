@@ -1,0 +1,20 @@
+{% extends 'common-template.html'%}
+
+{% block body %}
+
+<div style="text-align: center;">
+    <img class="icon" src= "{{ url_for('static', filename= 'images/travel.jpg') }}" alt="TravelBooking"  width="500" height="600" >
+</div>
+<h2>Book your journey now with TravelsBooking!</h2>
+<div class="container" style="color: #263238;">
+TravelsBooking is the best platform in the world for booking bus tickets online. Trusted by over 18 million customers worldwide, TravelsBooking offers an easy, fast, and secure platform for booking cheap bus tickets. 
+You only need to select your origin, destination, and date of departure, and you will find plenty of buses to travel by within a few seconds. 
+You can book bus based on your preferred schedule, choose a pick-up and dropping point, preferred bus type, 
+and book a bus ticket online with just a few clicks!
+</div>
+<ul class="menu">
+    <li><a href="{{ url_for('booking_ticket') }}">Booking</a></li>
+    <li><a href="{{ url_for('cancellation') }}">Cancellation</a></li><br>
+    <br><li><a href="{{ url_for('display_passenger') }}">Passenger List</a></li>
+</ul>
+{% endblock %}
